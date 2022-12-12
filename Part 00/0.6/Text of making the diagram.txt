@@ -1,0 +1,8 @@
+note over browser, server: after loading the page contents
+
+browser->server: HTTP POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa
+
+note over browser, server:
+browser doesn't reload the page again as before
+and starts rendering notes to display
+end note
